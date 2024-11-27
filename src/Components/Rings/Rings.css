@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1520px;
+}
+p, span{
+    margin: 0;
+    padding: 0;
+}
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.col-6 {
+    display: flex;
+    justify-content: center;
+}
+
+.col-5 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.mt-3 {
+    margin-top: 20px;
+}
+.product-name {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'manrope', sans-serif;
+
+}
+
+.product-price {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1;
+    font-family: 'jost', sans-serif;
+}
+
+.color-btn {
+    width: 18px;
+    height: 18px; 
+    border-radius: 50%;;
+    vertical-align: middle;
+    border: none;
+}
+.pink-btn{
+    background-color: #FFCCCC;
+}
+.silver-btn{
+    background-color: #CCCCCC;
+}
+.gold-btn{
+    background-color: #FFCC66;
+}
+.purity-btn{
+    width: 60px;
+    height: 34px;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+     border-radius: 5px;
+    background-color: #f2f2f2;
+    vertical-align: middle;
+    font-family: 'manrope', sans-serif;
+    font-size: 14px;
+}
+.carousel-indicators{
+    display: none;
+}
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    background-color: #CCCCCC;
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #CCCCCC; 
+    width: 30px; 
+    height: 30px;   
+}
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: #CCCCCC; 
+}
+.delivery-icon p{
+    font-size: 12px;
+    color: #012F49;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.pincode input{
+    width: 190px;
+    height: 45px;
+    padding: 0 10px;
+    border-radius: 8px;
+    border: 2px solid #012F49;
+}

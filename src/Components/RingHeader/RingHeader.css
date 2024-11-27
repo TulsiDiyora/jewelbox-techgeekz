@@ -1,0 +1,18 @@
+.shopping-cart-icon {
+  position: relative;
+  display: inline-block; 
+}
+.icons i{
+  color: #7A7A7A;
+  font-size: 20px;
+}
+.cart-count { 
+  position: absolute;
+  top: 2px;
+  right: -7px;
+  background-color: #012F49;
+  color: white;
+  padding:1px 5px;
+  font-size: 10px;
+  border-radius: 50%;
+}

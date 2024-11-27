@@ -1,0 +1,26 @@
+.size-dropdown {
+  font-size: 16px; 
+  padding: 8px 10px 8px 15px;
+  width: 100%; 
+  border-radius: 5px; 
+  border: 1px solid #e2e2e2; 
+  color: #6d6969;
+  vertical-align: middle;
+}
+.dropdown option {
+  font-size: 16px; 
+}
+.clear-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: black;
+  border: none; 
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.clear-button:hover {
+  background-color: #d32f2f;
+}
